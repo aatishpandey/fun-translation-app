@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color :#6EE7B7;
+    --light-primary-color :#ECFDF5;
+    --btn-color : #6EE7B7;
+}
+
+.container{
+    padding: 0.5rem 1rem;
+}
+
+.container-center{
+    margin: auto;
+}
+
+/* heading */
+#banana-heading{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    color: white;
+    height: 100px;
+    padding-bottom: 1rem;
+}
+
+#banana-heading h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+body{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: var(--light-primary-color);
+}
+
+.maindiv{
+    margin: auto;
+    max-width: 600px;
+}
+
+#txt-input{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top:1.5rem;
+    height: 15vh;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#btn-translate{
+    display: block;
+    margin : 1rem 0rem;
+    text-align: center;
+    width: 15rem;
+    height: 5rem;
+    color: white;
+    background-color: var(--btn-color);
+    font-size: 1.5rem;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    border: 0;
+}
+
+#banana-text{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#output{
+    border: 1px solid black;
+    height: 15vh;
+    width: 100%;
+    margin:auto;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.footer{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    color: white;
+    bottom: 0;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-heading{
+    font-size: 2rem;
+}
+
+.footer-para{
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+}
